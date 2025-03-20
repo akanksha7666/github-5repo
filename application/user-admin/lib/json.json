@@ -1,0 +1,120 @@
+{
+  "slug": "wwwww",
+  "name": "eeeeee",
+  "step": [
+    {
+      "step": 1,
+      "title": "Personal Info",
+      "previous_button_text": "back",
+      "next_button_text": "next",
+      "fields": [
+        {
+          "name": "radio1",
+          "type": "radio_clip",
+          "label": "iconfileName",
+          "required": true,
+          "validation": {
+            "minlength": 1
+          }
+        },
+        {
+          "name": "Last Name",
+          "placeholder" : "Enter Name",
+          "type": "text",
+          "label": "First Name",
+          "required": true,
+          "validation": {
+            "minlength": 2,
+            "maxlength": 50
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Personal Info",
+      "previous_button_text": "back",
+      "next_button_text": "next",
+      "fields": [
+        {
+          "name": "checkBox",
+          "type": "checkBox",
+          "label": "label",
+          "required": true,
+          "validation": {
+            "minlength": 1
+          }
+        },
+        {
+          "name": "Last Name",
+          "placeholder" : "Enter Name",
+          "type": "text",
+          "label": "First Name",
+          "required": true,
+          "validation": {
+            "minlength": 2,
+            "maxlength": 50
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Personal Info",
+      "previous_button_text": "back",
+      "next_button_text": "next",
+      "fields": [
+        {
+          "name": "radio",
+          "type": "radio",
+          "label": "title",
+          "required": true,
+          "validation": {
+            "maxlength": 50
+          }
+        },
+        {
+          "name": "Last Name",
+          "placeholder" : "Enter Name",
+          "type": "text",
+          "label": "First Name",
+          "required": true,
+          "validation": {
+            "minlength": 2,
+            "maxlength": 50
+          }
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "title": "sinfo",
+      "previous_button_text": "back",
+      "next_button_text": "next",
+      "fields": [
+        {
+          "name": "User number",
+          "placeholder" : "Enter Name",
+          "type": "text",
+          "label": "First Name",
+          "required": true,
+          "validation": {
+            "minlength": 2,
+            "maxlength": 50
+          }
+        },
+        {
+          "name": "User phone",
+          "placeholder" : "Enter Name",
+          "type": "text",
+          "label": "First Name",
+          "required": true,
+          "validation": {
+            "minlength": 2,
+            "maxlength": 50
+          }
+        }
+      ]
+    }
+  ]
+}
